@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+    <h1 class="title">A Walk Through India’s Rich Legacy</h1>
+    <div class="controls">
+        <label class="toggle-switch">
+            <input type="checkbox" id="auto-toggle" checked>
+            <span class="toggle-slider round"></span>
+        </label>
+        <span id="toggle-text">Auto Slide</span>
+
+        <label for="interval-select">Interval:</label>
+        <select id="interval-select">
+            <option value="3">3s</option>
+            <option value="5">5s</option>
+            <option value="7">7s</option>
+        </select>
+    </div>
+    <div class="slider">
+        <div class="slides">
+            <img src="images/depositphotos_119001452-stock-illustration-monument-and-culture-of-india.jpg" class="slide active" alt="Slide 1">
+            <img src="images/image.jpeg" class="slide" alt="Slide 2">
+            <img src="images/indian-collage-illustration-showing-culture-tradition-festival-india-vector-design-155787724.png" class="slide" alt="Slide 3">
+            <img src="images/OIP.png" class="slide" alt="Slide 4">
+            <img src="images/R.jpeg" class="slide" alt="Slide 5">
+            <img src="images/india-01-o.png" class="slide" alt="Slide 5">
+        </div>
+        <!-- Navigation Buttons -->
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
